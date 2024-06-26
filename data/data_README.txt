@@ -17,7 +17,7 @@ Los archivos de secuencia se descargaron en formato GenBank (.txt) para Dengue y
 seqkit genbank -p <archivo.txt> > <archivo.fasta>
 
 
-Reemplaza `<archivo.txt>` con el nombre del archivo de Dengue en formato GenBank y `<archivo.fasta>` con el nombre deseado para el archivo FASTA resultante.
+Reemplazar `<archivo.txt>` con el nombre del archivo de Dengue en formato GenBank y `<archivo.fasta>` con el nombre deseado para el archivo FASTA resultante.
 
 # Combinación de archivos FASTA
 

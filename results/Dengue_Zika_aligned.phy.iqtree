@@ -1,0 +1,152 @@
+IQ-TREE 2.3.4 COVID-edition built Apr 27 2024
+
+Input file name: results/Dengue_Zika_aligned.phy
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 675193
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 5 sequences with 10284 nucleotide sites
+Number of constant sites: 4201 (= 40.8499% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 4201 (= 40.8499% of all sites)
+Number of parsimony informative sites: 2524
+Number of distinct site patterns: 962
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+I+G4
+
+Rate parameter R:
+
+  A-C: 5.8413
+  A-G: 6.6781
+  A-T: 2.8638
+  C-G: 2.7229
+  C-T: 11.4370
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.3114
+  pi(C) = 0.2085
+  pi(G) = 0.2649
+  pi(T) = 0.2152
+
+Rate matrix Q:
+
+  A   -0.9777    0.3304      0.48    0.1672
+  C    0.4937    -1.357    0.1957    0.6679
+  G    0.5644     0.154   -0.7768    0.0584
+  T     0.242     0.647   0.07188   -0.9609
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.04414
+Gamma shape alpha: 0.5516
+
+ Category  Relative_rate  Proportion
+  0         0              0.04414
+  1         0.0453         0.239
+  2         0.2974         0.239
+  3         0.8939         0.239
+  4         2.948          0.239
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -50342.9570 (s.e. 244.6801)
+Unconstrained log-likelihood (without tree): -50171.4835
+Number of free parameters (#branches + #model parameters): 17
+Akaike information criterion (AIC) score: 100719.9140
+Corrected Akaike information criterion (AICc) score: 100719.9736
+Bayesian information criterion (BIC) score: 100842.9659
+
+Total tree length (sum of branch lengths): 2.7654
+Sum of internal branch lengths: 0.2882 (10.4211% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'lcl|NC_000' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++-----------lcl|NC_000
+|
+|    +-------------lcl|NC_001
++----| (100/100)
+|    |     +-----------lcl|NC_003
+|    +-----| (100/100)
+|          +-----------------------------------------------lcl|NC_004
+|
++----------lcl|NC_002
+
+Tree in newick format:
+
+(lcl|NC_000:0.3055446032,(lcl|NC_001:0.3641283878,(lcl|NC_003:0.3216030478,lcl|NC_004:1.2005661289)100/100:0.1516576498)100/100:0.1365331496,lcl|NC_002:0.2854169540);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -50342.957000
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++-----------lcl|NC_000
+|
+|    +-------------lcl|NC_001
++----| (100)
+|    |     +-----------lcl|NC_003
+|    +-----| (100)
+|          +-----------------------------------------------lcl|NC_004
+|
++----------lcl|NC_002
+
+
+Consensus tree in newick format: 
+
+(lcl|NC_000:0.3055240497,(lcl|NC_001:0.3641607048,(lcl|NC_003:0.3214376910,lcl|NC_004:1.2009714357)100:0.1517879736)100:0.1365377254,lcl|NC_002:0.2854409524);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t results/Dengue_Zika_aligned.phy.treefile -m "GTR{5.84133,6.67808,2.86375,2.72293,11.437}+F{0.311436,0.208461,0.264893,0.215211}+I{0.0441383}+G4{0.551568}" --length 10284
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s results/Dengue_Zika_aligned.phy --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s results/Dengue_Zika_aligned.phy --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Wed Jun 26 09:07:13 2024
+Total CPU time used: 3.125 seconds (0h:0m:3s)
+Total wall-clock time used: 5.9124824 seconds (0h:0m:5s)
+

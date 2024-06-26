@@ -3,9 +3,9 @@ Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung, Olga Chernomor,
 Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
 
 Host:    Desktop-Gabriel (AVX2, FMA3, 7 GB RAM)
-Command: D:\Downloads\iqtree-2.3.4-Windows\iqtree-2.3.4-Windows\bin\iqtree2.exe -s results/Dengue_Zika_aligned.phy -m GTR+G+I -B 1000 -alrt 1000
-Seed:    675193 (Using SPRNG - Scalable Parallel Random Number Generator)
-Time:    Wed Jun 26 09:07:07 2024
+Command: D:\Downloads\iqtree-2.3.4-Windows\iqtree-2.3.4-Windows\bin\iqtree2.exe -s results/Dengue_Zika_aligned.phy -m GTR+G+I -B 1000 -alrt 1000 -redo
+Seed:    255641 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Jun 26 09:54:11 2024
 Kernel:  AVX+FMA - 1 threads (12 CPU cores detected)
 
 HINT: Use -nt option to specify number of threads because your CPU has 12 cores!
@@ -16,16 +16,16 @@ Alignment most likely contains DNA/RNA sequences
 Alignment has 5 sequences with 10284 columns, 962 distinct patterns
 2524 parsimony-informative, 3559 singleton sites, 4201 constant sites
             Gap/Ambiguity  Composition  p-value
-Analyzing sequences: done in 7.19e-005 secs
-   1  lcl|NC_000    1.02%    passed     23.50%
-   2  lcl|NC_001    1.05%    failed      0.01%
-   3  lcl|NC_002    1.08%    passed     13.06%
-   4  lcl|NC_003    1.17%    passed     68.17%
-   5  lcl|NC_004    0.12%    failed      0.00%
+Analyzing sequences: done in 3.83e-005 secs
+   1  lcl|NC_DV2    1.02%    passed     23.50%
+   2  lcl|NC_DV1    1.05%    failed      0.01%
+   3  lcl|NC_DV4    1.08%    passed     13.06%
+   4  lcl|NC_DV3    1.17%    passed     68.17%
+   5  lcl|NC_ZV4    0.12%    failed      0.00%
 ****  TOTAL         0.89%  2 sequences failed composition chi2 test (p-value<5%; df=3)
 
-Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.017 seconds
-Generating 1000 samples for ultrafast bootstrap (seed: 675193)...
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.007 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 255641)...
 
 NOTE: 4 MB RAM (0 GB) is required!
 Estimate model parameters (epsilon = 0.100)
@@ -42,46 +42,46 @@ Init pinv, alpha: 0.363, 1.000 / Estimate: 0.180, 0.917 / LogL: -50347.562
 Init pinv, alpha: 0.408, 1.000 / Estimate: 0.178, 0.905 / LogL: -50347.261
 Optimal pinv,alpha: 0.044, 0.557 / LogL: -50343.021
 
-Parameters optimization took 0.849 sec
+Parameters optimization took 0.786 sec
 Wrote distance file to... 
 Computing ML distances based on estimated model parameters...
-Calculating distance matrix: done in 0.000193 secs
-Computing ML distances took 0.012575 sec (of wall-clock time) 0.000000 sec (of CPU time)
-Setting up auxiliary I and S matrices: done in 0.0002215 secs
-Computing RapidNJ tree took 0.028536 sec (of wall-clock time) 0.015625 sec (of CPU time)
+Calculating distance matrix: done in 0.0002002 secs
+Computing ML distances took 0.010116 sec (of wall-clock time) 0.000000 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 9.95e-005 secs
+Computing RapidNJ tree took 0.007468 sec (of wall-clock time) 0.000000 sec (of CPU time)
 Log-likelihood of RapidNJ tree: -50343.018
 --------------------------------------------------------------------
 |             INITIALIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
-Generating 99 parsimony trees... 0.173 second
-Computing log-likelihood of 4 initial trees ... 0.003 seconds
+Generating 99 parsimony trees... 0.128 second
+Computing log-likelihood of 4 initial trees ... 0.005 seconds
 Current best score: -50343.018
 
 Do NNI search on 5 best initial trees
 Finish initializing candidate tree set (5)
-Current best tree score: -50343.018 / CPU time: 0.283
+Current best tree score: -50343.018 / CPU time: 0.198
 Number of iterations: 5
 --------------------------------------------------------------------
 |               OPTIMIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
 UPDATE BEST LOG-LIKELIHOOD: -50343.018
-Iteration 10 / LogL: -50343.837 / Time: 0h:0m:3s
-Iteration 20 / LogL: -50343.233 / Time: 0h:0m:3s
-Iteration 30 / LogL: -50343.429 / Time: 0h:0m:3s (0h:0m:8s left)
+Iteration 10 / LogL: -50343.233 / Time: 0h:0m:1s
+Iteration 20 / LogL: -50344.340 / Time: 0h:0m:1s
+Iteration 30 / LogL: -50343.429 / Time: 0h:0m:1s (0h:0m:3s left)
+Iteration 40 / LogL: -50380.134 / Time: 0h:0m:1s (0h:0m:2s left)
 UPDATE BEST LOG-LIKELIHOOD: -50343.018
-Iteration 40 / LogL: -50343.159 / Time: 0h:0m:3s (0h:0m:5s left)
-Iteration 50 / LogL: -50343.329 / Time: 0h:0m:4s (0h:0m:4s left)
-Log-likelihood cutoff on original alignment: -50374.355
+Iteration 50 / LogL: -50343.233 / Time: 0h:0m:1s (0h:0m:1s left)
+Log-likelihood cutoff on original alignment: -50349.324
+Iteration 60 / LogL: -50344.488 / Time: 0h:0m:2s (0h:0m:1s left)
+Iteration 70 / LogL: -50344.157 / Time: 0h:0m:2s (0h:0m:1s left)
+Iteration 80 / LogL: -50344.340 / Time: 0h:0m:2s (0h:0m:0s left)
 UPDATE BEST LOG-LIKELIHOOD: -50343.018
-Iteration 60 / LogL: -50344.886 / Time: 0h:0m:4s (0h:0m:2s left)
-Iteration 70 / LogL: -50344.157 / Time: 0h:0m:4s (0h:0m:1s left)
 UPDATE BEST LOG-LIKELIHOOD: -50343.018
-Iteration 80 / LogL: -50343.258 / Time: 0h:0m:4s (0h:0m:1s left)
-Iteration 90 / LogL: -50343.446 / Time: 0h:0m:5s (0h:0m:0s left)
-Iteration 100 / LogL: -50344.488 / Time: 0h:0m:5s (0h:0m:0s left)
-Log-likelihood cutoff on original alignment: -50374.355
+Iteration 90 / LogL: -50343.018 / Time: 0h:0m:2s (0h:0m:0s left)
+Iteration 100 / LogL: -50380.134 / Time: 0h:0m:2s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -50349.324
 NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 1.000
-TREE SEARCH COMPLETED AFTER 101 ITERATIONS / Time: 0h:0m:5s
+TREE SEARCH COMPLETED AFTER 101 ITERATIONS / Time: 0h:0m:2s
 
 --------------------------------------------------------------------
 |                    FINALIZING TREE SEARCH                        |
@@ -93,28 +93,28 @@ Estimate model parameters (epsilon = 0.010)
 3. Current log-likelihood: -50342.982
 4. Current log-likelihood: -50342.967
 Optimal log-likelihood: -50342.957
-Rate parameters:  A-C: 5.84133  A-G: 6.67808  A-T: 2.86375  C-G: 2.72293  C-T: 11.43697  G-T: 1.00000
+Rate parameters:  A-C: 5.84133  A-G: 6.67808  A-T: 2.86375  C-G: 2.72293  C-T: 11.43698  G-T: 1.00000
 Base frequencies:  A: 0.311  C: 0.208  G: 0.265  T: 0.215
 Proportion of invariable sites: 0.044
 Gamma shape alpha: 0.552
-Parameters optimization took 4 rounds (0.070 sec)
+Parameters optimization took 4 rounds (0.047 sec)
 BEST SCORE FOUND : -50342.957
 
 Testing tree branches by SH-like aLRT with 1000 replicates...
-0.239 sec.
+0.204 sec.
 Creating bootstrap support values...
 Split supports printed to NEXUS file results/Dengue_Zika_aligned.phy.splits.nex
 Total tree length: 2.765
 
 Total number of iterations: 101
-CPU time used for tree search: 2.000 sec (0h:0m:2s)
-Wall-clock time used for tree search: 2.574 sec (0h:0m:2s)
-Total CPU time used: 3.125 sec (0h:0m:3s)
-Total wall-clock time used: 5.791 sec (0h:0m:5s)
+CPU time used for tree search: 1.891 sec (0h:0m:1s)
+Wall-clock time used for tree search: 2.025 sec (0h:0m:2s)
+Total CPU time used: 2.828 sec (0h:0m:2s)
+Total wall-clock time used: 3.337 sec (0h:0m:3s)
 
 Computing bootstrap consensus tree...
 Reading input file results/Dengue_Zika_aligned.phy.splits.nex...
-5 taxa and 9 splits.
+5 taxa and 7 splits.
 Consensus tree written to results/Dengue_Zika_aligned.phy.contree
 Reading input trees file results/Dengue_Zika_aligned.phy.contree
 Log-likelihood of consensus tree: -50342.957
@@ -129,4 +129,4 @@ Ultrafast bootstrap approximation results written to:
   Consensus tree:                results/Dengue_Zika_aligned.phy.contree
   Screen log file:               results/Dengue_Zika_aligned.phy.log
 
-Date and Time: Wed Jun 26 09:07:13 2024
+Date and Time: Wed Jun 26 09:54:14 2024

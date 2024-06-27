@@ -81,9 +81,11 @@ Para más información general y conceptos de Zika:
     - contacto: gamorales@puce.edu.ec
 
 ### Agradecimientos
-- [A Jorge Drexler porque la vida está en la luna de Rasquí]
+- [A Jorge Drexler, porque al igual que yo, nuestra casa está en las fronteras y las fronteras se mueven como las banderas]
+
 
 ### Referencias
-- [Añadir referencias]
-
+- [Dengue (Internet). OPS/OMS | Organización Panamericana de la Salud. 2024. Disponible en: https://www.paho.org/es/temas/dengue]
+- [OPS. Sistema de alerta y respuesta temprana ante brotes de dengue: guía operativa basada en el tablero de mandos en línea (Internet). 2021. Disponible en: https://iris.paho.org/handle/10665.2/53961]
+- [World Health Organization: WHO, World Health Organization: WHO. Dengue y dengue grave (Internet). 2024. Disponible en: https://www.who.int/es/news-room/fact-sheets/detail/dengue-and-severe-dengue]
 

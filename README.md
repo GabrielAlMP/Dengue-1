@@ -33,7 +33,7 @@ El árbol filogenético resultante se visualizó y se interpretaron las relacion
 Los detalles de los comandos utilizados en cada paso se encuentran en el archivo `scripts/scripts_README.txt`.
 
 
-<img src="images_and_videos/Dengue_Zika_aligned_JPG.jpg" alt="Árbol filogenético de los virus del Dengue y Zika" width="50%">
+<img src="images_and_videos/Dengue_Zika_aligned_JPG.jpg" alt="Árbol filogenético de los virus del Dengue y Zika" width="75%">
 
 
 Árbol filogenético que muestra las relaciones evolutivas entre los virus del Dengue (serotipos 1-4) y el virus Zika.

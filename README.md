@@ -1,5 +1,5 @@
 # Análisis Filogenético de Virus del Dengue y Zika
-#### Gabriel Alejandro Moreno Pérez (gamorales@puce.edu.ec) </br> 27 de Junio, 2023
+#### Gabriel Alejandro Morales Pérez (gamorales@puce.edu.ec) </br> 27 de Junio, 2023
 
 Este proyecto tiene como objetivo analizar las relaciones evolutivas entre distintos serotipos del virus del Dengue y el virus Zika utilizando sus secuencias genómicas completas. 
 El análisis incluye la obtención de datos del NCBI, el procesamiento y alineamiento de secuencias, la construcción de árboles filogenéticos y la interpretación de los resultados.
@@ -32,11 +32,24 @@ El árbol filogenético resultante se visualizó y se interpretaron las relacion
 
 Los detalles de los comandos utilizados en cada paso se encuentran en el archivo `scripts/scripts_README.txt`.
 
-<img src="ruta/a/tu/imagen.jpg" alt="Descripción de la imagen" width="50%">
 
-<video src="ruta/a/tu/video.mp4" width="50%" controls>
+<img src="images_and_videos/Dengue_Zika_aligned_JPG.jpg" alt="Árbol filogenético de los virus del Dengue y Zika" width="50%">
 
-  Video.
+
+Árbol filogenético que muestra las relaciones evolutivas entre los virus del Dengue (serotipos 1-4) y el virus Zika.
+
+
+Se pueden observar los cuatro serotipos del virus del Dengue (etiquetados como lcl|NCDV1 , lcl|NCDV2, lcl|NCDV3 y lcl|NCDV4) forman un grupo monofilético, lo que sugiere que todos ellos comparten un ancestro común más reciente. Esto es consistente con el conocimiento de que los cuatro serotipos del Dengue están estrechamente relacionados entre sí.
+
+Dentro del clado del Dengue, los serotipos 1 y 3 (lcl|NCDV1 y lcl|NCDV3) están más estrechamente relacionados entre sí que con los otros serotipos. Esto sugiere que estos dos serotipos podrían haber divergido de un ancestro común más recientemente en comparación con los serotipos 2 y 4.
+
+
+El virus Zika (etiquetado como lcl|NCZV4) se encuentra fuera del grupo del Dengue, lo que indica que está más lejanamente relacionado con los virus del Dengue que estos entre sí. Esto es consistente a que el Zika aunque está relacionado con el Dengue, es un virus distinto.
+
+
+
+
+Video 
 
 </video>
 

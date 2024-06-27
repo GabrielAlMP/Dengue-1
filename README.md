@@ -48,10 +48,19 @@ El virus Zika (etiquetado como lcl|NCZV4) se encuentra fuera del grupo del Dengu
 
 
 
+Para más información general y conceptos de Dengue así como sus serotipos: 
 
-Video 
+[![Dengue Virus](https://img.youtube.com/vi/1K3zLLhSknI/0.jpg)](https://youtu.be/1K3zLLhSknI?si=V3N94vvhXzQqh9H9)
 
-</video>
+
+
+
+Para más información general y conceptos de Zika: 
+
+[![Zika Virus](https://img.youtube.com/vi/OILBAbva6QA/0.jpg)](https://youtu.be/OILBAbva6QA?si=o7mFXITnw1eciNAf)
+
+
+
 
 ### Uso del Programa
 

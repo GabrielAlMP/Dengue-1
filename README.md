@@ -81,7 +81,7 @@ Para más información general y conceptos de Zika:
     - contacto: gamorales@puce.edu.ec
 
 ### Agradecimientos
-- [A Jorge Drexler, porque al igual que yo, nuestra casa está en las fronteras y las fronteras se mueven como las banderas]
+- A Jorge Drexler, porque al igual que yo, nuestra casa está en las fronteras y las fronteras se mueven como las banderas.
 
 
 ### Referencias

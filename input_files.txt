@@ -1,4 +1,0 @@
-data/Dengue_virus_1.txt
-data/Dengue_virus_2.txt
-data/Dengue_virus_3.txt
-data/Dengue_virus_4.txt

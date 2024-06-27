@@ -30,7 +30,7 @@ Se construyó un árbol filogenético utilizando IQ-TREE con el modelo GTR+G+I, 
 El árbol filogenético resultante se visualizó y se interpretaron las relaciones evolutivas entre los virus del Dengue y Zika.
 
 
-Los detalles de los comandos utilizados en cada paso se encuentran en el archivo `scripts/scripts_README.txt`.
+Los detalles de los comandos utilizados en cada paso se encuentran en las carpetas correspondientes en los archivos llamados  `data/data_README.txt` y  `results/resultados_README.txt`.
 
 
 <img src="images_and_videos/Dengue_Zika_aligned_JPG.jpg" alt="Árbol filogenético de los virus del Dengue y Zika" width="90%">
@@ -78,7 +78,7 @@ Para más información general y conceptos de Zika:
 ### Autor
 - Gabriel Alejandro Morales Pérez
     - Estudiante de [Bioinformática - PUCE]
-    - contacto: gamorales@puce.edu.ec
+    - Contacto: gamorales@puce.edu.ec
 
 ### Agradecimientos
 - A Jorge Drexler, porque al igual que yo, nuestra casa está en las fronteras y las fronteras se mueven como las banderas.

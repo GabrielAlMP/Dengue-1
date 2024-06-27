@@ -15,7 +15,7 @@ Las secuencias descargadas se convirtieron de formato GenBank a FASTA y se combi
 
 
 3. **Alineamiento de Secuencias**: 
-Las secuencias combinadas de Dengue y Zika se alinearon utilizando Muscle (`results/Dengue_Zika_aligned.fasta`).
+Las secuencias combinadas de Dengue y Zika se alinearon utilizando Muscle (`results/Dengue_Zika_aligned.fasta`). Los detalles de este procesos se encuentran en el archivo `results/resultados_README.txt`. 
 
 
 4. **Conversión de Formato**: 
@@ -85,7 +85,6 @@ Para más información general y conceptos de Zika:
 
 
 ### Referencias
-- [Dengue (Internet). OPS/OMS | Organización Panamericana de la Salud. 2024. Disponible en: https://www.paho.org/es/temas/dengue]
-- [OPS. Sistema de alerta y respuesta temprana ante brotes de dengue: guía operativa basada en el tablero de mandos en línea (Internet). 2021. Disponible en: https://iris.paho.org/handle/10665.2/53961]
-- [World Health Organization: WHO, World Health Organization: WHO. Dengue y dengue grave (Internet). 2024. Disponible en: https://www.who.int/es/news-room/fact-sheets/detail/dengue-and-severe-dengue]
-
+- Dengue (Internet). OPS/OMS | Organización Panamericana de la Salud. 2024. Disponible en: https://www.paho.org/es/temas/dengue
+- OPS. Sistema de alerta y respuesta temprana ante brotes de dengue: guía operativa basada en el tablero de mandos en línea (Internet). 2021. Disponible en: https://iris.paho.org/handle/10665.2/53961
+- World Health Organization: WHO, World Health Organization: WHO. Dengue y dengue grave (Internet). 2024. Disponible en: https://www.who.int/es/news-room/fact-sheets/detail/dengue-and-severe-dengue
